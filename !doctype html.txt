@@ -1,0 +1,80 @@
+<!doctype html>
+<li>Designs that work across branding, fashion and beauty.</li>
+<li>Personalised service for custom commissions.</li>
+<li>Premium, classic aesthetic with timeless appeal.</li>
+</ul>
+</div>
+<div style="flex:1">
+<h3 style="margin-top:0">Our Process</h3>
+<p class="small">Share your brief → We sketch concept options → You choose and we refine → Final deliverables (JPEG, PNG, vector files on request). For custom commissions, we offer mood boards and revision rounds to ensure the final design reflects your vision.</p>
+</div>
+</section>
+
+
+<section id="order" style="padding:28px 6%">
+<h2 style="font-size:20px;margin:0 0 12px">Create Your Custom Design</h2>
+<div class="contact-form">
+<form id="orderForm" method="POST" action="#" onsubmit="alert('This is a demo form. Replace the action with your form handler or Typeform link.');return false;">
+<label for="name">Name</label>
+<input id="name" name="name" type="text" placeholder="Your full name" required />
+
+
+<label for="email">Email</label>
+<input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+
+<label for="designType">Select design type</label>
+<select id="designType" name="designType">
+<option>Antique-Inspired Modern Design</option>
+<option>Fashion Illustration Concept</option>
+<option>Makeup & Beauty Logo</option>
+<option>Custom Commission</option>
+</select>
+
+
+<label for="stylePref">Style preference</label>
+<select id="stylePref" name="stylePref">
+<option>Classic</option>
+<option>Minimal</option>
+<option>Modern</option>
+<option>Bold</option>
+<option>Glamorous</option>
+</select>
+
+
+<label for="message">Describe your idea (or paste references)</label>
+<textarea id="message" name="message" placeholder="Tell us about your vision, colours, references..."></textarea>
+
+
+<div style="display:flex;gap:12px;align-items:center">
+<button class="btn btn-cta" type="submit">Submit Request</button>
+<a class="small" href="REPLACE_TYPEFORM_URL">Or open the Typeform design flow</a>
+</div>
+</form>
+</div>
+</section>
+
+
+</main>
+
+
+<footer id="contact">
+<div>
+<strong>KSPenterprises</strong>
+<div class="small">Antique artistry reimagined — modern imagination</div>
+</div>
+<div style="text-align:right">
+<div class="small">Email: hello@kspenterprises.com</div>
+<div style="margin-top:8px">
+<a class="small" href="#">Instagram</a> &nbsp;•&nbsp; <a class="small" href="#">Behance</a>
+</div>
+</div>
+</footer>
+
+
+<script>
+// Small helper: replace REPLACE_TYPEFORM_URL with your Typeform link to enable direct flow.
+// Example: document.querySelectorAll('a[href="REPLACE_TYPEFORM_URL"]').forEach(a=>a.href='https://form.typeform.com/to/abc123');
+</script>
+</body>
+</html>
